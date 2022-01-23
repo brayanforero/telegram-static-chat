@@ -1,0 +1,35 @@
+{
+  "name": "telegram-chat",
+  "version": "0.0.1",
+  "description": "This a practice CSS skills",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "skills",
+    "web",
+    "design",
+    "other"
+  ],
+  "author": "Brayan Forero <brayanroswll2802@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-server": "^0.1.2"
+  }
+}
