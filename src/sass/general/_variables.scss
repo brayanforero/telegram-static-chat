@@ -1,0 +1,15 @@
+:root {
+  // FONTS WEIGHTS
+  --font-light: 300;
+  --font-normal: 400;
+  --font-bold: 700;
+
+  // COLORS
+  --primary: rgb(135, 117, 225);
+  --border-color: rgb(48, 48, 48);
+  --card-color: hsl(0, 0%, 13%);
+  --body-color: hsl(0, 0%, 6%);
+  --text-color: hsl(0, 0%, 90%);
+}
+
+$card-padding: 1.5em 2em;

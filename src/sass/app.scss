@@ -1,0 +1,48 @@
+@import 'general/reset';
+@import 'general/variables';
+@import 'general/base';
+
+.chat {
+  min-height: 100%;
+  height: 100%;
+  flex: 1;
+  overflow: inherit;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  h1 {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .card--left,
+  .card--right {
+    overflow-x: hidden;
+  }
+  .card--left {
+    background-color: var(--card-color);
+    border-right: 1px solid var(--border-color);
+  }
+
+  .card--right {
+    height: 100%;
+    background-color: red;
+    padding-top: 7rem;
+    overflow-y: auto;
+  }
+
+  &__topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+    max-height: 7rem;
+    background-color: var(--card-color);
+  }
+
+  .messages {
+    width: 80%;
+    height: calc(100% - 7rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
