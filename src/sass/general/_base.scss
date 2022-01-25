@@ -11,9 +11,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
   color: var(--text-color);
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
@@ -32,6 +30,7 @@ body.theme-light {
   --card-color: hsl(0, 0%, 100%);
   --body-color: hsl(0, 0%, 90%);
   --text-color: hsl(0, 0, 10%);
+  --bg-input: hsl(0, 0%, 95%);
   background-image: linear-gradient(
     180deg,
     #b6eaa4 44.79%,
