@@ -16,23 +16,28 @@ html(lang="es")
       .chat__search
         i.fas.fa-bars.chat__toggle
         input.chat__field(type="text" placeholder="Search")
-      .chat__boxs
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-        .chat__box 
-
+      .chat__boxs-messages
+        .chat__box-message.active
+          img.chat__avatar(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
+          .chat__prev-message
+            p.chat__text John 
+              span
+                i.fas.fa-check-double  - Fri
+            p.chat__text This is message
+              span
+                i.fas.fa-map-pin
     .chat__messages.card.card--right
       .chat__topbar
+        .chat__topbar--avatar
+          img.chat__avatar(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
+        .chat__status
+            p John
+            p Online
+        .chat__action-topbar
+          i.fas.fa-search
+          i.fas.fa-ellipsis-v
+              
+      .chat__body
+        .container
+      .chat__topbar--bottom
         
