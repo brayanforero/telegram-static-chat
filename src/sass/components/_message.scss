@@ -1,0 +1,28 @@
+.message {
+  width: 25%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: var(--card-color);
+  display: flex;
+  justify-content: space-between;
+  &__text {
+    margin: 0;
+  }
+
+  &__status {
+    margin: 0;
+    display: flex;
+    align-items: end;
+    gap: 0 0.4rem;
+    font-size: 1.2rem;
+    span {
+      font-weight: 300;
+    }
+  }
+
+  &--is-my {
+    margin-left: auto;
+    background-color: var(--primary);
+    color: hsl(0, 50%, 95%);
+  }
+}

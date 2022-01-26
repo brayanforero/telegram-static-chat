@@ -37,7 +37,7 @@
     }
 
     input {
-      width: 85%;
+      width: 80%;
       padding: 1em 1.5em;
       border: none;
       border-radius: 1.5em;
@@ -164,7 +164,10 @@
       height: auto;
       margin-left: auto;
       margin-right: auto;
-      background-color: hsl(0, 0%, 100%);
+      padding: 0.5em 0;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
     }
   }
 }
