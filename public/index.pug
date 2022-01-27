@@ -17,23 +17,25 @@ html(lang="es")
         i.fas.fa-bars.chat__toggle
         input.chat__field(type="text" placeholder="Search")
       .chat__boxs-messages
-        .chat__box-message.active
-          img.chat__avatar(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
-          .chat__prev-message
-            p.chat__text John 
+        .box-chat.active
+          img.box-chat__avatar(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
+          .box-chat__prev-message
+            p.box-chat__text John
               span
-                i.fas.fa-eye  - Fri
-            p.chat__text Hola como estas?
+                i.fas.fa-eye
+                |  - Frid
+            p.box-chat__text Hola como estas?
               span
                 i.fas.fa-map-eye
     .chat__messages.card.card--right
-      .chat__topbar
-        .chat__topbar--avatar
-          img.chat__avatar(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
-        .chat__status
+      .topbar
+        span.topbar__status-circle
+        .topbar__avatar
+          img(src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=", alt="Avatar User Profile")
+        .topbar__status
             p John
             p Online
-        .chat__action-topbar
+        .topbar__action-topbar
           i.fas.fa-search
           i.fas.fa-ellipsis-v    
       .chat__body
@@ -58,5 +60,9 @@ html(lang="es")
            .message__status
             span 14:00
             i.fas.fa-bell
-      .chat__topbar--bottom
+      .topbar.topbar--bottom
+        .topbar__box-writing
+          input.chat__field(type="text" placeholder="Type")
+          button
+            i.fas.fa-arrow-right
         
