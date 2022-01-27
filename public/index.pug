@@ -10,11 +10,13 @@ html(lang="es")
     link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
     link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap' rel='stylesheet')
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
   body
   #app.chat
     .chat__list.card.card--left
+      #card-options.card-options.animate__animated.animate__slideOutLeft.animate__faster 
       .chat__search
-        i.fas.fa-bars.chat__toggle
+        i#toggle-options.fas.fa-bars.chat__toggle
         input.chat__field(type="text" placeholder="Search")
       .chat__boxs-messages
         .box-chat.active
