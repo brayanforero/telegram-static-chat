@@ -14,9 +14,19 @@ html(lang="es")
   body
   #app.chat
     .chat__list.card.card--left
-      #card-options.card-options.animate__animated.animate__slideOutLeft.animate__faster 
+      //- #card-options.card-options
+      #card-options.card-options.animate__animated.animate__slideOutLeft.animate__faster
+        .card-options__item
+          i.fas.fa-inbox
+          p Buzon
+        .card-options__item
+          i.fas.fa-user
+          p Contactos
+        .card-options__item
+          i.fas.fa-sun
+          p Light Mode
       .chat__search
-        i#toggle-options.fas.fa-bars.chat__toggle
+        i#toggle-options.fa.fa-bars.chat__toggle
         input.chat__field(type="text" placeholder="Search")
       .chat__boxs-messages
         .box-chat.active

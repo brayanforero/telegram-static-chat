@@ -14,7 +14,7 @@
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 25% 1fr;
+  grid-template-columns: 30% 1fr;
   overflow: inherit;
   h1 {
     margin: 0;
@@ -32,8 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    i.fas {
-      font-size: 1.75em;
+    i.fa {
+      font-size: 1.5em;
       cursor: pointer;
     }
 

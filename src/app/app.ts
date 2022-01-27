@@ -1,5 +1,4 @@
 const $toggleOptions = document.getElementById('toggle-options');
-console.log($toggleOptions);
 const $options = document.getElementById('card-options');
 
 $toggleOptions.addEventListener('click', () => {

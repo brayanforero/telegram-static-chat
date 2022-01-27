@@ -1,16 +1,43 @@
 .card-options {
   position: absolute;
   top: 6.25rem;
-  left: 0.9rem;
-  width: 32rem;
+  left: 0.6rem;
+  min-width: 23.99%;
+  width: 23.99%;
   height: 80vh;
+  padding: 1em 1.5em;
   z-index: 50;
   border-radius: 0.75em;
-  background-color: #fff;
+  background-color: var(--bg-input);
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  box-shadow: 0 4px 10px -5px hsla(0, 0%, 0%, 0.8);
 
   &.animated_faster {
     animation-duration: 0.3s;
     animation-delay: 0.1s;
+  }
+
+  &__item {
+    width: 100%;
+    border-radius: 0.5em;
+    padding: 0.75em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    i {
+      font-size: 2.4rem;
+    }
+    p {
+      margin: 0;
+      width: 80%;
+      font-size: 1.8rem;
+    }
   }
 }
