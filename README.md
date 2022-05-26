@@ -5,6 +5,8 @@ This is a clone of the Telegram chat layout, this project has the objective of r
 
 ## Preview 💻
 
+[Go to preview][preview]
+
 ## Instalation 🛠
 
 1- Clone this project.
@@ -16,3 +18,6 @@ This is a clone of the Telegram chat layout, this project has the objective of r
 
 [Get to know me a little more in my portfolio][portafolio]
 [portafolio]: https://brayanforero.github.io/engineering "Portafolio"
+
+[1]: https://telegram-static-chat.vercel.app/
+[preview]: https://telegram-static-chat.vercel.app/
