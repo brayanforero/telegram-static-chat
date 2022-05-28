@@ -10,7 +10,7 @@ This is a clone of the Telegram chat layout, this project has the objective of r
 ## Instalation 🛠
 
 1- Clone this project.
-`git clone git@github.com:brayanforero/telegram-static-chat.git`
+`git clone this project`
 2- Install dependencies
 `npm install or yarn` 3. Open in your browser localhost:8080
 
